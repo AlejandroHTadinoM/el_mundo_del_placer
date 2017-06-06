@@ -11,7 +11,7 @@
   margin:0;	
   }
 body {
-  background-image: url(../img/footer_lodyas.png);
+  background-image: url(../img/bg.png);
   background-repeat: repeat;
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
@@ -23,9 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   margin:0.2em 0 0.2em 0;    
 }
 h1 {font-size:2.4em;}
-h2 {font-size:2em;}  
-h3 {font-size:1.6em;}  
-h4 {font-size:1.2em;}  
+h2 {font-size:2em;}
+h3 {font-size:1.6em;}
+h4 {font-size:1.2em;}
 h5 {font-size:1em;}  
 h6 {font-size:0.9em;}    
 a, a:link, a:visited, a:hover, a:active {
@@ -71,7 +71,7 @@ form {line-height:1.4em;}
 nav {
   display:block;
   width:100%;
-  background:#005fbe;
+  background:#F62B61;
 }
 .line::after, nav::after, .center::after, .box::after, .margin::after {clear: both;}
 .line::before, .line::after, nav::before, nav::after, .center::before, .center::after, .box::before, .box::after, .margin::before, .margin::after {
@@ -98,7 +98,7 @@ nav {
   min-width:100%;
   padding:0.625em;
 }
-.top-nav li a:hover, .aside-nav li a:hover {background:#000;}
+.top-nav li a:hover, .aside-nav li a:hover {background:#630821;}
 .top-nav li ul {display:none;}
 .top-nav li ul li {
   float:none;
@@ -134,7 +134,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   font-size:0.7em;
   margin:0 0.625em;
 }
-.top-nav .active-item a {background:none repeat scroll 0 0 #000;}
+.top-nav .active-item a {background:none repeat scroll 0 0 #630821;}
 .aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
   background:none repeat scroll 0 0 #999;
   color:#fff;
@@ -486,4 +486,50 @@ nav {
   float:none;
   margin:0 auto;
   display:block;
+}
+
+/* Custom CSS */
+
+.service-icon {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 24px 32px rgba(236, 64, 122, 0);
+  transition: all .4s ease-in-out;
+}
+
+.service-icon:hover {
+  box-shadow: 0 0 16px 0px rgba(236, 64, 122, .6);
+}
+
+.acc {
+  color: #F62B61;
+}
+
+.text-lead {
+  text-align: center;
+}
+
+.text-lead ul {
+  text-align: left;
+}
+
+.text-lead a {
+  color: #F62B61;
+}
+
+.contact-title {
+  text-align: center;
+  color: #F62B61;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact-content {
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact-content a {
+  color: #F62B61;
 }
